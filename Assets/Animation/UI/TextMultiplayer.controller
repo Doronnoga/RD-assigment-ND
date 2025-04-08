@@ -9,8 +9,8 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Multiplier
-    m_EventTreshold: 5
+    m_ConditionEvent: Value
+    m_EventTreshold: 25
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2632271974020163976}
   m_Solo: 0
@@ -61,8 +61,8 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Multiplier
-    m_EventTreshold: 10
+    m_ConditionEvent: Value
+    m_EventTreshold: 45
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4279207058024631821}
   m_Solo: 0
@@ -112,8 +112,8 @@ AnimatorController:
   m_Name: TextMultiplayer
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Multiplier
-    m_Type: 3
+  - m_Name: Value
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -225,7 +225,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Multiplier
+    m_ConditionEvent: Value
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3480104604636233345}
